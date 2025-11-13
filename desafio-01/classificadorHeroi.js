@@ -1,15 +1,15 @@
 // Matriz para armazenar as informações do herois como ficha de personagem (nome, classe, sexo, nivel e EXP)
 let fichaDoHeroi = [
-    ["Aragorn", "Guerreiro", "M", 20, 1500],
+    ["Aragorn", "Guerreiro", "M", 20, 1830],
     ["Legolas", "Arqueiro", "F", 11, 880],
-    ["Gandalf", "Mago", "M", 25, 3000],
+    ["Gandalf", "Mago", "M", 25, 3050],
     ["Tio Patinhas", "Bilionário", "M", 31, 5480],
-    ["Capitão Gancho", "Pirata", "M", 15, 2000],
-    ["Mulan", "Guerreira", "F", 18, 2200],
-    ["Merlin", "Mago", "M", 22, 2700],
-    ["Zelda", "Princesa", "F", 14, 1600],
-    ["Link", "Aventureiro", "M", 16, 1900],
-    ["Lara Croft", "Exploradora", "F", 19, 2400]
+    ["Capitão Gancho", "Pirata", "M", 15, 1200],
+    ["Mulan", "Guerreira", "F", 38, 6310],
+    ["Merlin", "Mago", "M", 45, 7285],
+    ["Zelda", "Princesa", "F", 52, 8730],
+    ["Link", "Aventureiro", "M", 60, 12100],
+    ["Lara Croft", "Exploradora", "F", 56, 9228]
 ]
 
 let exp = fichaDoHeroi[0][4]

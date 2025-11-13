@@ -23,11 +23,10 @@ O foco é **construir uma base sólida em lógica de programação**, dominando 
 Cada diretório representa um desafio ou módulo da formação.
 
 📦 formacao-logica-programacao \
-┣ 📂 desafio-01-classificador-heroi \
-┃ ┣ 📜 classificador-heroi.js \
-┃ ┗ 📜 README.md \
-┣ 📂 desafio-02-calculadora-partidas \
-┣ 📂 desafio-03-sistema-de-nivel \
+┣ 📂 desafio-01 \
+┃ ┣ 📜 classificadorHeroi.js \
+┣ 📂 desafio-02 \
+┣ 📂 desafio-03 \
 ┣ 📜 README.md
 
 
@@ -39,7 +38,7 @@ Cada diretório representa um desafio ou módulo da formação.
 |---|----------|------------|--------|
 | 01 | 🦸‍♂️ **Classificador de Heróis** | Lê os dados do herói e classifica o nível conforme a experiência. | ✅ Concluído |
 | 02 | ⚔️ **Calculadora de Partidas Rankeadas** | Calcula vitórias, derrotas e define o rank do jogador. | 🔜 Em desenvolvimento |
-| 03 | 🧮 **Lógica com Arrays e Loops** | Manipulação de dados com estruturas de repetição e arrays. | 🔜 Planejado |
+| 03 | 🧮 **Escrevendo as classes de um Jogo** | Criar uma classe generica que represente um herói de uma aventura. | 🔜 Planejado |
 
 ---
 
@@ -63,22 +62,6 @@ Cada diretório representa um desafio ou módulo da formação.
 
 ---
 
-## 🧩 Exemplo de Código
-
-```javascript
-// Exemplo: Classificador de Heróis
-let nome = "Gandalf"
-let exp = 3000
-let nivel = ""
-
-if (exp < 1000) nivel = "Ferro"
-else if (exp <= 2000) nivel = "Bronze"
-else if (exp <= 5000) nivel = "Prata"
-else if (exp <= 8000) nivel = "Ouro"
-else nivel = "Lendário"
-
-console.log(`O Herói ${nome} está no nível ${nivel}`)
-```
 📈 Objetivos da Formação
 
 Desenvolver o raciocínio lógico aplicado à programação
